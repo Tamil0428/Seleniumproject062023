@@ -3,7 +3,6 @@ package Adactin.com.adactin;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -25,6 +24,8 @@ public class BaseClass {
 		   driver.manage().window().maximize();
 		   driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	}
+	
+	//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
 	
 	public static WebElement nameLocator(String name) {
 		return driver.findElement(By.name(name));

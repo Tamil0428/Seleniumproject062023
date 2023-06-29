@@ -17,7 +17,7 @@ public class Adactin_login {
 		locator.sendKeys(username);
 		WebElement locator1 = nameLocator("password");
 		locator1.sendKeys(password);
-		idLocator("log").click();
+		idLocator("login").click();
 
 		// User-Selection Preferrance
 		WebElement locator2 = nameLocator("location");
